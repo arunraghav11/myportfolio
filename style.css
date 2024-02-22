@@ -1,0 +1,67 @@
+
+body {
+    background-color: white;
+    color: antiquewhite;
+    
+}
+
+#element {
+    color: rgb(36, 223, 129);
+}
+
+nav {
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 69px;
+   background-color: yellowgreen
+ }
+
+ nav ul {
+    display: flex;
+    justify-content: center;
+ }
+
+ nav ul li {
+    list-style: none;
+    margin: 0 28px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+   }
+nav ul li a:hover {
+   color: black
+   }
+.left {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: inherit;
+    
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    
+}
+
+.firstsection > div {
+    width: 35%;
+}
+
+.leftsection {
+    color: rgb(91, 94, 86);
+    font-size: 3.7rem;
+    width:50%;
+}
+.highlight {
+    color: rgb(36, 223, 129);
+}
+
+.rightsection img {
+    width:110%;
+    margin-top: 5px;
+}
+
